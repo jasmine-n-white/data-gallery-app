@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
 import {useParams} from 'react-router-dom'
-import './CreatureProfile.css'
+import 'src/Creature/CreatureProfile.css'
 
 function CreatureProfile() {
     const {id} = useParams();

@@ -3,8 +3,8 @@ import {Routes, Route} from 'react-router-dom'
 import './App.css'
 import Home from './Home'
 import NotFound from './NotFound'
-import Header from './Header'
-import CreatureProfile from './CreatureProfile'
+import Header from 'src/Header/Header.jsx'
+import CreatureProfile from 'src/Creature/CreatureProfile.jsx'
 
 function App() {
 
